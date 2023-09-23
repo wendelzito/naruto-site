@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header,
+section h1,
+section h2 {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    padding: 1px;
+    background-color: chocolate;
+    color: khaki;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 1px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: khaki;
+    text-decoration: none;
+    padding: 20px;
+}
+
+section {
+    padding: 17px 0;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section p {
+    padding: 15px;
+}
+
+section h2 {
+    margin-bottom: 10px 0;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: -15px auto;
+}
+
+.naruto {
+    margin-right: 2px;
+    height: 856px;
+}
+
+.classic img {
+    height: 150px;
+}
+
+.classic li {
+    display: inline; 
+    margin-right: -100px;
+}
+
+section h2 p {
+    padding: px;
+}
+
+section {
+    color: black;
+}
+
+footer {
+    background-color: chocolate;
+    color: khaki;
+    padding: 20px 0;
+}
