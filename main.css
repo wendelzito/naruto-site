@@ -10,7 +10,9 @@ body {
 
 header,
 section h1,
-section h2 {
+section h2,
+section h3,
+form button {
     font-family: 'Bungee', cursive;
     font-weight: normal;
 }
@@ -40,9 +42,37 @@ header nav li a {
     padding: 20px;
 }
 
+
+section h3 {
+    margin-bottom: 2px;
+}
+
+form input, 
+form button {
+    display: block;
+    width: 85px;
+    margin-bottom: 5px;
+    padding: 3px;
+}
+
+form button {
+    background-color: chocolate;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+
 section {
     padding: 17px 0;
 }
+
+section .login {
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}   
 
 section .container {
     align-items: flex-start;
